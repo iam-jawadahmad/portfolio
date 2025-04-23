@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home - Jawad Ahmad{% endblock %}
+
+{% block main %}
+{% block hero %} {% include 'IndexSections/hero.html' %} {% endblock %}
+{% block about %} {% include 'IndexSections/about.html' %} {% endblock %}
+{% block resume %} {% include 'IndexSections/resume.html' %} {% endblock %}
+{% block services %} {% include 'IndexSections/services.html' %} {% endblock %}
+{% block stats %} {% include 'IndexSections/stats.html' %} {% endblock %}
+{% block portfolio %} {% include 'IndexSections/portfolio.html' %} {% endblock %}
+{% block testimonials %} {% include 'IndexSections/testimonials.html' %} {% endblock %}
+{% block contact %} {% include 'IndexSections/contact.html' %} {% endblock %}
+{% endblock %}
